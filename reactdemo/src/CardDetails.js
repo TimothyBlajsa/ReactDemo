@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './card.module.css';
 
-const CardDetails = ({}) => {
+const CardDetails = () => {
     return (
         
-          <div className="card-title">
-            <p className="card-title-text">Our Card</p>
+          <div className={style.card_title}>
+            <p className={style.card_title_text}>Our Card</p>
           </div>
     )
 };

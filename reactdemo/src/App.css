@@ -36,10 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-.card-title-text {
-  color: black;
-  border-bottom: 1px solid black;
-  margin:1rem;
-}
