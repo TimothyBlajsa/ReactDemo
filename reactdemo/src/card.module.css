@@ -12,5 +12,10 @@
     border-bottom: 1px solid black;
     margin:1rem;
   }
+
+  .card_content_text {
+      color:black;
+      margin:1rem;
+  }
   
   
