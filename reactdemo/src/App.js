@@ -19,11 +19,7 @@ function App() {
         </a>
         <h1 className="demo-header">Begin Demonstration</h1>
         <p>Let's add a simple card</p>
-        <div className="card-container">
-          <div className="card-title">
-            <p className="card-title-text">Our Card</p>
-          </div>
-        </div>
+        
       </header>
     </div>
   );
