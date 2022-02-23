@@ -4,7 +4,9 @@ import CardDetails from "./CardDetails";
 
 const Card = ({}) => {
     return (
-        <div className="card-container"></div>
+        <div className="card-container">
+            <CardDetails></CardDetails>
+        </div>
     )
 };
 

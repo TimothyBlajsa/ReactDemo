@@ -20,7 +20,7 @@ function App() {
         </a>
         <h1 className="demo-header">Begin Demonstration</h1>
         <p>Let's add a simple card</p>
-        
+        <Card></Card>
       </header>
     </div>
   );
