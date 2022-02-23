@@ -23,12 +23,12 @@ A site demonstrating the ease-of-use of ReactJS and its components (JSX included
 ### JSX
 1. The easiest way to conceptualize JSX is as html within a JS function
 2. Example for creating a paragraph within a div
-    `const Component() => {
+    ```const Component() => {
         return(
             <>
             <div className={style.Name}>
                 <p>Text</p>
             </div>
             </>
-        )}`
+        )}```
 3. Note that if you have more than one element of the same type, it must be wrapped with an empty tag showing JSX that there is a single element
