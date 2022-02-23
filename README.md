@@ -30,5 +30,5 @@ A site demonstrating the ease-of-use of ReactJS and its components (JSX included
                 <p>Text</p>
             </div>
             </>
-        )}```
+        )}`
 3. Note that if you have more than one element of the same type, it must be wrapped with an empty tag showing JSX that there is a single element
