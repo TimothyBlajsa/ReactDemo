@@ -18,3 +18,4 @@ A site demonstrating the ease-of-use of ReactJS and its components (JSX included
     `Import Component from './component'`
 3. Write your function, this will contain your JSX html structure
 4. Export your function
+    `export default component`
