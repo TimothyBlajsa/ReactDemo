@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container {
+  background-color:azure;
+  height: 25rem;
+  width: 25rem;
+  margin:2rem;
+  box-shadow: 12px 12px 12px 2px rgb(27, 27, 27);
+  border-radius: 25px;
+}

@@ -17,7 +17,11 @@ function App() {
         >
           Learn React
         </a>
-        <h1>Begin Demonstration</h1>
+        <h1 className="demo-header">Begin Demonstration</h1>
+        <p>Let's add a simple card</p>
+        <div className="card-container">
+          <div className="card-title"></div>
+        </div>
       </header>
     </div>
   );
