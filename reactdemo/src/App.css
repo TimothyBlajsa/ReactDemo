@@ -45,3 +45,9 @@
   box-shadow: 12px 12px 12px 2px rgb(27, 27, 27);
   border-radius: 25px;
 }
+
+.card-title-text {
+  color: black;
+  border-bottom: 1px solid black;
+  margin:1rem;
+}
