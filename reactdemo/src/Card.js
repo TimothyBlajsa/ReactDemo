@@ -1,2 +1,2 @@
 import React from "react";
-import style from ""
+import style from "./card.module.css"
