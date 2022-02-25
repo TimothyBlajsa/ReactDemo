@@ -52,3 +52,18 @@ footer {
   margin:1rem;
   color:white;
 }
+
+form {
+  background-color:white;
+  color:black;
+  border-radius: 5px;
+  cursor:pointer;
+  box-shadow: 5px 5px 8px black;
+  margin:1rem;
+}
+form:hover {
+  background-color: gray;
+}
+form::after {
+  background-color: lightgray;
+}
