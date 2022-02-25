@@ -18,8 +18,8 @@ function App() {
         >
           Learn React
         </a>
-        <h1 className="demo-header">Begin Demonstration</h1>
-        <h1>There are three main steps to getting a React app running!</h1>
+        
+        <h1>There are five main steps to getting a React app running!</h1>
         <h2>Step 1: Creating the app itself</h2>
         <p>1. Open a new terminal in VSCode</p>
         <p>2. Run the following: <code>npx create-react-app my-app</code></p>
@@ -47,6 +47,11 @@ function App() {
         <p>2. Within the function created in the previous step, wrap your html within an empty tag</p>
         <p>3. Style with inline rules and syntax</p>
         <code>className='name'</code>
+
+        <h2>Step 5: Running your new app</h2>
+        <p>1. Using the script provided in the package.json file, open a new terminal</p>
+        <p>Run the following: <code>npm run start</code></p>
+        <p>2. Alternatively you can hover over the script and click <code>run</code></p>
 
         <h1>Let's make something!</h1>
         <p>Let's add a simple card</p>
