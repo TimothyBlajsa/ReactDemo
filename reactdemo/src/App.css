@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+code {
+  background-color:rgb(102, 101, 101);
+  border-radius:5px;
+  margin:.25rem;
+}
+
+.multiline-snippet {
+  margin:none;
+  display: block;
+}

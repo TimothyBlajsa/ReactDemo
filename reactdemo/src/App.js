@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to ReactJS!
         </p>
         <a
           className="App-link"
@@ -19,6 +19,36 @@ function App() {
           Learn React
         </a>
         <h1 className="demo-header">Begin Demonstration</h1>
+        <h1>There are three main steps to getting a React app running!</h1>
+        <h2>Step 1: Creating the app itself</h2>
+        <p>1. Open a new terminal in VSCode</p>
+        <p>2. Run the following: <code>npx create-react-app my-app</code></p>
+        <p>3. Let run</p>
+
+        <h2>Step 2: React Quickstart</h2>
+        <p>1. This is a library developed by Facebook</p>
+        <p>2. It allows the user to leverage code components rather than vanilla JS</p>
+        <p>3. Easily modularize projects</p>
+
+        <h2>Step 3: Components</h2>
+        <p>1. Check your imports and exports</p>
+        <p>2. If import does not exist, create a new one for the component you are creating:</p>
+        <code>Import React from 'React'</code>
+        <code>Import Component from './component'</code>
+        <p>3. Write your function, this will contain your JSX html structure</p>
+        <code>
+            <code className='multiline-snippet'>const component()</code>
+        </code>
+        <p>4. Export your function</p>
+        <code>export default component</code>
+
+        <h2>Step 4: JSX</h2>
+        <p>1. The easiest way to concetpualize JSX is as html</p>
+        <p>2. Within the function created in the previous step, wrap your html within an empty tag</p>
+        <p>3. Style with inline rules and syntax</p>
+        <code>className='name'</code>
+
+        <h1>Let's make something!</h1>
         <p>Let's add a simple card</p>
         <Card></Card>
       </header>

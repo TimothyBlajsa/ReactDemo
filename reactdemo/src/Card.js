@@ -4,9 +4,11 @@ import CardDetails from "./CardDetails";
 
 const Card = () => {
     return (
+        <>
         <div className={style.card_container}>
             <CardDetails></CardDetails>
         </div>
+        </>
     )
 };
 

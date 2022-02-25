@@ -9,8 +9,9 @@ const CardDetails = () => {
             <p className={style.card_title_text}>Our Card</p>
           </div>
           <div className={style.card_content}>
-            <p className={style.card_content_text}> This is the content for this particular demonstration card
+            <p className={style.card_content_text}> 1. This is the content for this particular demonstration card
             </p>
+            <img href="./logo.svg" alt="sample text"></img>
           </div>
         </>
     )
