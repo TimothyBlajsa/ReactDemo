@@ -9,7 +9,7 @@ A site demonstrating the ease-of-use of ReactJS and its components (JSX included
 ## ReactJS Quick-Start
 1. This is a library developed by Facebook
 2. It allows the user to leverage code components rather than use vanilla JS
-3. Easily modualize projects
+3. Easily modularize projects
 
 ### Create a Component
 1. Check your imports
@@ -33,3 +33,7 @@ A site demonstrating the ease-of-use of ReactJS and its components (JSX included
             )
         }
 3. Note that if you have more than one element of the same type, it must be wrapped with an empty tag showing JSX that there is a single element
+
+### Running the app
+1. Using the provided scripts found in the package.json file, open a new terminal
+2. Run `npm run start` or hover over the script and hit `run`
