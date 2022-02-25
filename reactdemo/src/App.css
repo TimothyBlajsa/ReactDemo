@@ -47,3 +47,8 @@ code {
   margin:none;
   display: block;
 }
+
+footer {
+  margin:1rem;
+  color:white;
+}

@@ -54,8 +54,12 @@ function App() {
         <p>2. Alternatively you can hover over the script and click <code>run</code></p>
 
         <h1>Let's make something!</h1>
-        <p>Let's add a simple card</p>
+        <p>Let's add a simple card with the following:</p>
+        <p>1. Card Container </p>
+        <p>2. Card Details </p>
         <Card></Card>
+
+        <footer><a href='https://github.com/TimothyBlajsa/ReactDemo'>Investigate the source code!</a></footer>
       </header>
     </div>
   );
