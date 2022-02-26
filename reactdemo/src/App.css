@@ -48,9 +48,9 @@ code {
   display: block;
 }
 
-footer {
+.footer {
   margin:1rem;
-  color:white;
+  color:#61dafb;
 }
 
 form {
@@ -66,4 +66,13 @@ form:hover {
 }
 form::after {
   background-color: lightgray;
+}
+
+a {
+  color: #61dafb;
+}
+
+.footer_link {
+  margin: 1rem;
+  border:1px solid black;
 }

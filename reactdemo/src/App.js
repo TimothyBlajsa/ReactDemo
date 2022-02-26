@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Tutorial from './Tutorial';
+import Links from './Links';
 
 function sayHello(){
   alert("Hello");
@@ -22,7 +23,7 @@ function App() {
         </a>
         <Tutorial></Tutorial>
         <form onClick={sayHello}>Click Me!</form>
-        <footer><a href='https://github.com/TimothyBlajsa/ReactDemo'>Investigate the source code!</a></footer>
+        <Links></Links>
       </header>
     </div>
   );
