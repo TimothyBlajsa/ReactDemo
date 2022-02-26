@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './App.css';
+import Card from './Card';
 
 const Tutorial = () => {
     return(
@@ -37,6 +38,17 @@ const Tutorial = () => {
         <p>1. Using the script provided in the package.json file, open a new terminal</p>
         <p>Run the following: <code>npm run start</code></p>
         <p>2. Alternatively you can hover over the script and click <code>run</code></p>
+
+        <h1>Let's make something!</h1>
+        <p>Let's add a simple card with the following:</p>
+        <p>1. Card Container </p>
+        <p>2. Card Details </p>
+        <Card></Card>
+
+        <h1>Let's make a button!</h1>
+        <p>1. Create a button the way you usually do</p>
+        <p>2. Set onClick within tag</p>
+        <p>3. Create a function to handle the onClick event</p>
         </>
     )
 };
